@@ -1,0 +1,90 @@
+/* Estilos para el encabezado */
+header {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #0D47A1; /* Azul */
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1565C0;
+    border-radius: 5px;
+}
+
+/* Estilos para la imagen de perfil */
+.perfil {
+    background-color: #FFCDD2; /* Color de fondo suave */
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 210px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Espaciado para evitar que el header y footer cubran el contenido */
+body {
+    padding-top: 100px; /* Ajustado para header fijo */
+    padding-bottom: 80px; /* Ajustado para footer fijo */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Estilos para el título */
+h1 {
+    color: #0D47A1;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+/* Estilos para el contenido principal */
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    position: relative; /* Antes era fixed, lo corregí */
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #0D47A1; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
